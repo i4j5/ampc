@@ -11,7 +11,7 @@ has_not() {
 }
 
 ok() {
-  echo "→ "$1" OK"
+  echo -en "\033[37;1;42m → " $1 "OK \033[0m \n"
 }
 
 if has_not apache2; then
@@ -63,4 +63,4 @@ if has_not composer; then
 fi
 ok "Composer"
 
-ok "Installation finished!"
+echo -en "\n\033[37;1;40m Установка завершена! \033[0m \n\n"
