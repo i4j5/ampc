@@ -1,4 +1,4 @@
-# install Apache2, MySQL, PHP 7, phpMyAdmin, Composer on ubuntu 16.04
+# Установка Apache2, MySQL, PHP 7, phpMyAdmin, Composer на ubuntu 16.04
 
 
 ```console
