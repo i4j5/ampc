@@ -46,6 +46,7 @@ if has_not php; then
        php7.0-curl \
        php7.0-json \
        php7.0-cgi \
+       php7.0-zip \
        php7.0 \
        libapache2-mod-php7.0
 fi
