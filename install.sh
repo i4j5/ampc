@@ -18,7 +18,7 @@ if has_not apache2; then
   sudo apt install -y apache2
   
   # Настройка виртуальных доменов
-  curl -sS -O https://gist.githubusercontent.com/claudiosmweb/ab41b5e8693eea7c02b8/raw/392305085efa1347c26498a1a5027037ae9c73be/000-default.conf
+  curl -sS -O https://raw.githubusercontent.com/i4j5/ampc/master/000-default.conf
   sudo rm /etc/apache2/sites-available/000-default.conf
   sudo mv 000-default.conf /etc/apache2/sites-available
   ok "Настройка виртуальных доменов"
