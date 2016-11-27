@@ -45,6 +45,7 @@ if has_not php; then
   sudo apt install -y php7.0-mysql \
        php7.0-curl \
        php7.0-json \
+       php7.0-sqlite3 \
        php7.0-cgi \
        php7.0-zip \
        php7.0 \
