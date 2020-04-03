@@ -49,7 +49,7 @@ if has_not php; then
        php7.2-cgi \
        php7.2-zip \
        php7.2 \
-       libapache2-mod-php7.0
+       libapache2-mod-php7.2
 fi
 ok "PHP"
 
