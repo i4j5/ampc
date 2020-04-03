@@ -42,13 +42,13 @@ fi
 ok "MySQL"
 
 if has_not php; then
-  sudo apt install -y php7.0-mysql \
-       php7.0-curl \
-       php7.0-json \
-       php7.0-sqlite3 \
-       php7.0-cgi \
-       php7.0-zip \
-       php7.0 \
+  sudo apt install -y php7.2-mysql \
+       php7.2-curl \
+       php7.2-json \
+       php7.2-sqlite3 \
+       php7.2-cgi \
+       php7.2-zip \
+       php7.2 \
        libapache2-mod-php7.0
 fi
 ok "PHP"
