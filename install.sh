@@ -51,7 +51,7 @@ if has_not php; then
        php7.2 \
        libapache2-mod-php7.2
 fi
-ok "PHP"
+ok "PHP" 
 
 if ! [[ -d "/etc/phpmyadmin" ]]; then
   sudo apt install -y phpmyadmin
